@@ -26,6 +26,10 @@ return {
   org_log_done = 'time',
   org_highlight_latex_and_related = nil,
   org_custom_exports = {},
+  notifications = {
+    enabled = false,
+    warning_time = 10,
+  },
   mappings = {
     disable_all = false,
     global = {
